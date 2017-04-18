@@ -1,0 +1,131 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a>cordova-plugin-alipay (v0.9.1)</a>
+</h1>
+<h4>æ”¯ä»˜å®æ”¯ä»˜æ’ä»¶ï¼Œalipay payment</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-alipay">module cordova-plugin-alipay</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cordova-plugin-alipay.</span>alipay</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-alipay.alipay">module cordova-plugin-alipay.alipay</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-alipay.alipay.pay">
+            function <span class="apidocSignatureSpan">cordova-plugin-alipay.alipay.</span>pay
+            <span class="apidocSignatureSpan">(paymentInfo, successCallback, errorCallback)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cordova-plugin-alipay" id="apidoc.module.cordova-plugin-alipay">module cordova-plugin-alipay</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cordova-plugin-alipay.alipay" id="apidoc.module.cordova-plugin-alipay.alipay">module cordova-plugin-alipay.alipay</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-alipay.alipay.pay" id="apidoc.element.cordova-plugin-alipay.alipay.pay">
+        function <span class="apidocSignatureSpan">cordova-plugin-alipay.alipay.</span>pay
+        <span class="apidocSignatureSpan">(paymentInfo, successCallback, errorCallback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">pay = function (paymentInfo, successCallback, errorCallback) {
+    cordova.exec(successCallback, errorCallback, "AliPay", "pay", [paymentInfo]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+	cordova plugin add $CORDOVA_PLUGIN_DIR --variable PARTNER_ID=[ä½&nbsp;çš„å•†æˆ·PIDå¯ä»¥åœ¨è´¦æˆ·ä¸­æŸ¥è¯¢] --variable SELLER_ACCOUNT=[ä½&nbsp;çš„å•†æˆ·æ”¯ä»˜å®å¸å·] --variable
+ PRIVATE_KEY=[ä½&nbsp;ç”Ÿæˆçš„private key]
+
+**æ³¨æ„**ï¼šPRIVATE_KEYçš„å€¼æ˜¯ç”Ÿæˆçš„ç§é’¥ï¼Œè¦æ±‚æ˜¯**PKCS**æ&nbsp;¼å¼ï¼Œéœ€è¦åŽ»æŽ‰â€”â€”-BEGIN PRIVAT KEYâ€”â€”-å’Œâ€”â€”-END PRIVATE KEYâ€”â€”-ï¼Œä»¥åŠ**ç©ºæ&nbsp;¼**å’Œ**æ¢è¡Œ**ã€‚å…³äºŽç§é’¥çš„è¯´æ˜Žè¯¦è§ä¸‹é¢&lt;a href
+='#å…³äºŽç§é’¥'&gt;å…³äºŽç§é’¥&lt;/a&gt;éƒ¨åˆ†
+
+## ä½¿ç”¨æ–¹æ³•
+```
+window.alipay.<span class="apidocCodeKeywordSpan">pay</span>({
+	tradeNo: tradeNo,
+	subject: "æµ‹è¯•æ&nbsp;‡é¢˜",
+	body: "æˆ‘æ˜¯æµ‹è¯•å†…å®¹",
+	price: 0.02,
+	notifyUrl: "http://your.server.notify.url"
+}, function(successResults){alert(results)}, function(errorResults){alert(results)});
+```
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
