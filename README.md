@@ -1,4 +1,7 @@
-# api documentation for  cordova-plugin-alipay (v0.9.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-alipay.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-alipay) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-alipay.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-alipay)
+# npmdoc-cordova-plugin-alipay
+
+#### basic api documentation for  cordova-plugin-alipay (v0.9.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-alipay.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-alipay) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-alipay.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-alipay)
+
 #### 支付宝支付插件，alipay payment
 
 [![NPM](https://nodei.co/npm/cordova-plugin-alipay.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cordova-plugin-alipay)
@@ -54,7 +57,8 @@
     ],
     "repo": "https://github.com/charleyw/cordova-plugin-alipay",
     "scripts": {},
-    "version": "0.9.1"
+    "version": "0.9.1",
+    "bin": {}
 }
 ```
 

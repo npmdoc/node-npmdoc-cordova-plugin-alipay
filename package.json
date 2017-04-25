@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "api documentation for cordova-plugin-alipay (v0.9.1) [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-alipay.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-alipay) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-alipay.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-alipay)",
+    "description": "#### basic api documentation for  cordova-plugin-alipay (v0.9.1)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-alipay.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-alipay) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-alipay.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-alipay)",
     "devDependencies": {
         "cordova-plugin-alipay": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
